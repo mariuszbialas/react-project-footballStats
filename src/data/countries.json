@@ -1,0 +1,237 @@
+{
+    "get": "countries",
+    "parameters": [],
+    "errors": [],
+    "results": 167,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "name": "Argentina",
+        "code": "AR",
+        "flag": "https://media-3.api-sports.io/flags/ar.svg"
+      },
+      {
+        "name": "Austria",
+        "code": "AT",
+        "flag": "https://media-2.api-sports.io/flags/at.svg"
+      },
+      {
+        "name": "Belgium",
+        "code": "BE",
+        "flag": "https://media-3.api-sports.io/flags/be.svg"
+      },
+      {
+        "name": "Bosnia",
+        "code": "BA",
+        "flag": "https://media-2.api-sports.io/flags/ba.svg"
+      },
+      {
+        "name": "Brazil",
+        "code": "BR",
+        "flag": "https://media-2.api-sports.io/flags/br.svg"
+      },
+      {
+        "name": "Bulgaria",
+        "code": "BG",
+        "flag": "https://media-3.api-sports.io/flags/bg.svg"
+      },
+      {
+        "name": "Croatia",
+        "code": "HR",
+        "flag": "https://media-2.api-sports.io/flags/hr.svg"
+      },
+      {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media-2.api-sports.io/flags/cz.svg"
+      },
+      {
+        "name": "Denmark",
+        "code": "DK",
+        "flag": "https://media-2.api-sports.io/flags/dk.svg"
+      },
+      {
+        "name": "England",
+        "code": "GB",
+        "flag": "https://media-3.api-sports.io/flags/gb.svg"
+      },
+      {
+        "name": "Estonia",
+        "code": "EE",
+        "flag": "https://media-3.api-sports.io/flags/ee.svg"
+      },
+      {
+        "name": "Finland",
+        "code": "FI",
+        "flag": "https://media-1.api-sports.io/flags/fi.svg"
+      },
+      {
+        "name": "France",
+        "code": "FR",
+        "flag": "https://media-2.api-sports.io/flags/fr.svg"
+      },
+      {
+        "name": "Germany",
+        "code": "DE",
+        "flag": "https://media-2.api-sports.io/flags/de.svg"
+      },
+      {
+        "name": "Greece",
+        "code": "GR",
+        "flag": "https://media-3.api-sports.io/flags/gr.svg"
+      },
+      {
+        "name": "Hungary",
+        "code": "HU",
+        "flag": "https://media-3.api-sports.io/flags/hu.svg"
+      },
+      {
+        "name": "Iceland",
+        "code": "IS",
+        "flag": "https://media-2.api-sports.io/flags/is.svg"
+      },
+      {
+        "name": "Ireland",
+        "code": "IE",
+        "flag": "https://media-2.api-sports.io/flags/ie.svg"
+      },
+      {
+        "name": "Israel",
+        "code": "IL",
+        "flag": "https://media-1.api-sports.io/flags/il.svg"
+      },
+      {
+        "name": "Italy",
+        "code": "IT",
+        "flag": "https://media-1.api-sports.io/flags/it.svg"
+      },
+      {
+        "name": "Japan",
+        "code": "JP",
+        "flag": "https://media-2.api-sports.io/flags/jp.svg"
+      },
+      {
+        "name": "Latvia",
+        "code": "LV",
+        "flag": "https://media-2.api-sports.io/flags/lv.svg"
+      },
+      {
+        "name": "Liechtenstein",
+        "code": "LI",
+        "flag": "https://media-2.api-sports.io/flags/li.svg"
+      },
+      {
+        "name": "Lithuania",
+        "code": "LT",
+        "flag": "https://media-2.api-sports.io/flags/lt.svg"
+      },
+      {
+        "name": "Luxembourg",
+        "code": "LU",
+        "flag": "https://media-3.api-sports.io/flags/lu.svg"
+      },
+      {
+        "name": "Macedonia",
+        "code": "MK",
+        "flag": "https://media-2.api-sports.io/flags/mk.svg"
+      },
+      {
+        "name": "Mexico",
+        "code": "MX",
+        "flag": "https://media-1.api-sports.io/flags/mx.svg"
+      },
+      {
+        "name": "Moldova",
+        "code": "MD",
+        "flag": "https://media-2.api-sports.io/flags/md.svg"
+      },
+      {
+        "name": "Montenegro",
+        "code": "ME",
+        "flag": "https://media-1.api-sports.io/flags/me.svg"
+      },
+      {
+        "name": "Netherlands",
+        "code": "NL",
+        "flag": "https://media-2.api-sports.io/flags/nl.svg"
+      },
+      {
+        "name": "Northern-Ireland",
+        "code": "GB",
+        "flag": "https://media-3.api-sports.io/flags/gb.svg"
+      },
+      {
+        "name": "Norway",
+        "code": "NO",
+        "flag": "https://media-1.api-sports.io/flags/no.svg"
+      },
+      {
+        "name": "Poland",
+        "code": "PL",
+        "flag": "https://media-3.api-sports.io/flags/pl.svg"
+      },
+      {
+        "name": "Portugal",
+        "code": "PT",
+        "flag": "https://media-1.api-sports.io/flags/pt.svg"
+      },
+      {
+        "name": "Romania",
+        "code": "RO",
+        "flag": "https://media-3.api-sports.io/flags/ro.svg"
+      },
+      {
+        "name": "Scotland",
+        "code": "GB",
+        "flag": "https://media-3.api-sports.io/flags/gb.svg"
+      },
+      {
+        "name": "Serbia",
+        "code": "RS",
+        "flag": "https://media-1.api-sports.io/flags/rs.svg"
+      },
+      {
+        "name": "Slovakia",
+        "code": "SK",
+        "flag": "https://media-1.api-sports.io/flags/sk.svg"
+      },
+      {
+        "name": "Slovenia",
+        "code": "SI",
+        "flag": "https://media-1.api-sports.io/flags/si.svg"
+      },
+      {
+        "name": "Spain",
+        "code": "ES",
+        "flag": "https://media-2.api-sports.io/flags/es.svg"
+      },
+      {
+        "name": "Sweden",
+        "code": "SE",
+        "flag": "https://media-2.api-sports.io/flags/se.svg"
+      },
+      {
+        "name": "Switzerland",
+        "code": "CH",
+        "flag": "https://media-1.api-sports.io/flags/ch.svg"
+      },
+      {
+        "name": "Ukraine",
+        "code": "UA",
+        "flag": "https://media-1.api-sports.io/flags/ua.svg"
+      },
+      {
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media-1.api-sports.io/flags/us.svg"
+      },
+      {
+        "name": "Wales",
+        "code": "GB",
+        "flag": "https://media-3.api-sports.io/flags/gb.svg"
+      }
+    ]
+  }

@@ -1,0 +1,14 @@
+.team-row {
+    min-height: 80px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.team-row:hover {
+    background-color: lightgray;
+}
+
+.team-select {
+    padding: 5px;
+    width: 200px;
+}

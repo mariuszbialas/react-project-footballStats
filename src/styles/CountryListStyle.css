@@ -1,0 +1,29 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 15px;
+}
+
+.list__one-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin-inline: 10px;
+}
+
+.list__one-item span {
+  display: inline-block;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.list__one-item-badge {
+    display: inline-block;
+    width: 40px;
+} 
+
+
+.list__one-item IMG {
+  border: 1px SOLID #000;
+}
