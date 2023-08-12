@@ -16,8 +16,11 @@ const RootLayouts = () => {
         bg="dark"
         data-bs-theme="dark"
         sticky="top">
+
         <Container>
+
           <Navbar.Brand>
+
             <Nav.Item>
               <Link to="/" className="nav-link">
                 <img
@@ -28,10 +31,22 @@ const RootLayouts = () => {
                 Fußball STATS
               </Link>
             </Nav.Item>
+
           </Navbar.Brand>
 
           <Navbar id="basic-navbar-nav">
+
             <Nav className="me-auto">
+
+              <Nav.Item>
+                <Link
+                  to="/livescore"
+                  className={`nav-link ${location.pathname === '/livescore' ? 'text-info' : ''}`}
+                  >
+                  Livescore
+                </Link>
+              </Nav.Item>
+
               <Nav.Item>
                 <Link
                   to="/countries"
@@ -58,8 +73,11 @@ const RootLayouts = () => {
                   Teams
                 </Link>
               </Nav.Item>
+
             </Nav>
+
           </Navbar>
+
         </Container>
       </Navbar>
 

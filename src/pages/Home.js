@@ -3,16 +3,20 @@ import Badge from 'react-bootstrap/Badge';
 
 import countriesJson from '../data/countries.json';
 import leaguesJson from '../data/leagues.json';
+import teamsJson from '../data/teams.json';
 
 const Home = props => {
 
   const countriesNumber = countriesJson.response.length;
   const leaguesNumber = leaguesJson.response.length;
-  const teamsNumber = 0; // TODO: add json file with teams
+  const teamsNumber = teamsJson.response.length;
  
   return (
     <div className="App">
-      <h1 className="mt-5 container-sm text-light text-bg-info">Willkomen</h1>
+
+      <h1 className="mt-5 container-sm text-light text-bg-info p-2">
+        Willkomen
+      </h1>
 
       <p className="p-3 container-sm">
         Hier finden Sie Neuigkeiten, Berichte und Updates zu nationalen und

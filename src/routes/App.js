@@ -16,6 +16,7 @@ import Countries from '../pages/Countries';
 import Leagues from '../pages/Leagues';
 import Teams from '../pages/Teams';
 import NoPage from '../pages/NoPage';
+import Livescore from "../pages/Livescore";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index="home" element={<Home />} />
+          <Route path="livescore" element={<Livescore />} />
           <Route path="countries" element={<Countries />} />
           <Route path="leagues" element={<Leagues />} />
           <Route path="teams" element={<Teams />} />

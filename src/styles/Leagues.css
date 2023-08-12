@@ -1,11 +1,6 @@
 .league-row {
     min-height: 80px;
     padding: 10px;
-    transition: background-color 0.3s;
-}
-
-.league-row:hover {
-    background-color: lightgray;
 }
 
 .league-country-select {

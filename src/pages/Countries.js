@@ -5,7 +5,7 @@ import '../styles/CountryListStyle.css';
 
 import countriesJson from '../data/countries.json';
 import leaguesJson from '../data/leagues.json';
-import CountryFlag from '../components/CountryFlag';
+import ShowFlag from '../components/ShowFlag';
 
 const Countries = () => {
   const countries = countriesJson.response;
@@ -28,16 +28,16 @@ const Countries = () => {
       </h1>
 
       <div className="list container-sm">
-        {countries.map((country, i) => {
+        {countries.map(country => {
           return (
-            <div className="list__one-item">
-              <CountryFlag
+            <div className="list__one-item" key={country.name}>
+              <ShowFlag
                 url={country.flag}
                 alt={`${country.name} Flag`}
-                size={60}
+                size={['60px']}
               />
 
-              <span>
+              <span className="fw-bold fs-5">
                 {country.name} ({country.code})
               </span>
 
@@ -55,24 +55,3 @@ const Countries = () => {
 };
 
 export default Countries;
-
-/*
-<li key={`${i}-${country.code}`}>
-                  <div className="list__one-item">
-                    <CountryFlag
-                      url={country.flag}
-                      alt={`${country.name} Flag`}
-                      size={40}
-                    />
-
-                    <span>
-                      {country.name} ({country.code})
-                    </span>
-                    <h5>
-                      <Badge bg="warning" className="m-2">
-                        {countries.length}
-                      </Badge>
-                    </h5>
-                  </div>
-                </li>
-*/
