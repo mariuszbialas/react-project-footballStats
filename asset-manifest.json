@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/football-stats/static/css/main.49fbed23.css",
+    "main.js": "/football-stats/static/js/main.9b88d6fd.js",
+    "static/js/787.e62e7471.chunk.js": "/football-stats/static/js/787.e62e7471.chunk.js",
+    "index.html": "/football-stats/index.html",
+    "static/media/logo.svg": "/football-stats/static/media/logo.c12ee3ea93496f10416733f3adeb0efe.svg",
+    "main.49fbed23.css.map": "/football-stats/static/css/main.49fbed23.css.map",
+    "main.9b88d6fd.js.map": "/football-stats/static/js/main.9b88d6fd.js.map",
+    "787.e62e7471.chunk.js.map": "/football-stats/static/js/787.e62e7471.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49fbed23.css",
+    "static/js/main.9b88d6fd.js"
+  ]
+}
